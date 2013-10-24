@@ -16,7 +16,7 @@
 	<project path="bootable/recovery" name="sndnvaps/miui_recovery" remote="github_sndnvaps" revision="refs/heads/ubuntu-touch" />
 	<project path="device/samsung/crespo4g" name="sndnvaps/android_device_samsung_crespo4g" /> 
 	<project path="vendor/samsung/crespo4g" name="MoKee/android_vendor_samsung_crespo4g" remote="github_sndnvaps" revision="refs/heads/jb-mr2_mkt" />
-	<project path="kernel/samsung/crespo4g" name="AndroidDeveloperAlliance/ZenKernel_Crespo" remote="github_sndnvaps" revision="refs/heads/cm" />
+	<project path="kernel/samsung/crespo4g" name="sndnvaps/ZenKernel_Crespo" remote="github_sndnvaps" revision="refs/heads/cm" />
 	
 
 </manifest>
