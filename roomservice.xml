@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<romote name="github"
-		fetch=".."
-		review="review.cyanogenmod.org" />
 
 	<remote name="private"
 		fetch="ssh://git@github.com" />
@@ -11,16 +8,15 @@
 		fetch="git://github.com" />
 
 	<default revision="refs/heads/cm-10.1"
-		remote="github"
+		remote="github_sndnvaps"
 		sync-c="true"
 		sync-j="4" />
 
 	<!-- CM10.1 for crespo4g -->
 	<project path="bootable/recovery" name="sndnvaps/miui_recovery" remote="github_sndnvaps" revision="refs/heads/ubuntu-touch" />
-	<project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" /> 
+	<project path="device/samsung/crespo4g" name="sndnvaps/android_device_samsung_crespo4g" /> 
 	<project path="vendor/samsung/crespo4g" name="MoKee/android_vendor_samsung_crespo4g" remote="github_sndnvaps" revision="refs/heads/jb-mr2_mkt" />
-      <!-- this is for test ,so i don't move it 
 	<preject path="kernel/samsung/crespo4g" name="AndroidDeveloperAlliance/ZenKernel_Crespo" remote="github_sndnvaps" revision="refs/heads/cm" />
-	-->
+	
 </manifest>
 
