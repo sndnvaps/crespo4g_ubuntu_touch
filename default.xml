@@ -15,7 +15,7 @@
 	<!-- CM10.1 for crespo4g -->
 	<project path="bootable/recovery" name="sndnvaps/miui_recovery" remote="github_sndnvaps" revision="refs/heads/ubuntu-touch" />
 	<project path="device/samsung/crespo4g" name="sndnvaps/android_device_samsung_crespo4g" />
-        <project path="device/samsung/crespo" name="sndnvaps/android_device_smasung_crespo" />	
+        <project path="device/samsung/crespo" name="sndnvaps/android_device_samsung_crespo" />	
 	<project path="kernel/samsung/crespo" name="CyanogenMod/android_kernel_samsung_crespo" remote="github_sndnvaps" />
 	
 
