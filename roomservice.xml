@@ -22,5 +22,5 @@
       <!-- this is for test ,so i don't move it 
 	<preject path="kernel/samsung/crespo4g" name="AndroidDeveloperAlliance/ZenKernel_Crespo" remote="github_sndnvaps" revision="refs/heads/cm" />
 	-->
-
+</manifest>
 
