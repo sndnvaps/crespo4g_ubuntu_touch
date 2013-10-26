@@ -16,7 +16,7 @@
 	<project path="bootable/recovery" name="sndnvaps/miui_recovery" remote="github_sndnvaps" revision="refs/heads/ubuntu-touch" />
 	<project path="device/samsung/crespo4g" name="sndnvaps/android_device_samsung_crespo4g" />
         <project path="device/samsung/crespo" name="sndnvaps/android_device_samsung_crespo" />	
-	<project path="kernel/samsung/crespo" name="sndnvaps/android_kernel_samsung_crespo" remote="github_sndnvaps" revision="/refs/heads/phablet-saucy" />
+	<project path="kernel/samsung/crespo" name="sndnvaps/android_kernel_samsung_crespo" remote="github_sndnvaps" revision="refs/heads/phablet-saucy" />
 	
 
 </manifest>
